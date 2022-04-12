@@ -5,7 +5,7 @@ local GRAVITY = 10
 
 function Bird:init()
     -- load bird image from disk and assign its width and height
-    self.image = love.graphics.newImage('bird.png')
+    self.image = love.graphics.newImage('images/bird.png')
     self.width = self.image:getWidth()
     self.height = self.image:getHeight()
 
